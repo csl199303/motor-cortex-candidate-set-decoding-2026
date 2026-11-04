@@ -1,0 +1,16 @@
+{
+  "source_dataset_doi": "10.12751/g-node.rz77m8",
+  "analyzed_source_zip_sha256": "c644f98fa9f9d178e7b494a573521d0261e68430774cd68692851052416c52a1",
+  "reference_summaries_sha256": {
+    "reference_results/gnode_target_set/summary.json": "8b1333d3f6c2428917a8b1a1d514c1cb00bdd32737558934d314a38ed6d78b44",
+    "reference_results/gnode_encoding_controls/summary.json": "831753b9cf354f03a1927b530bec278ae116b28f2d7bc6a77959a16b716a897a",
+    "reference_results/gnode_switch_dynamics/summary.json": "b4f309663b4a5ceaa26130bb6899fc5d1a3f2e0e10e3f863299a89786e2b1b28",
+    "reference_results/gnode_within_set_decoding/summary.json": "4182957802c878a71cbfaef8fa0ebf94f2398cc4d1b6fd8aa3d287d3fc91aa75",
+    "reference_results/gnode_decoding_robustness/summary.json": "8076d0a6b20237a64fa5f8e03b5c6c5406ca7abe5dba625596bd15b079d35663",
+    "reference_results/gnode_decoder_calibration/summary.json": "a5d9fc3a2cc90a1d73cdbeff365221c862ca582e7844969b347495ff92e7a5c1",
+    "reference_results/gnode_rt_evidence/summary.json": "a34d37b5c9c4d921d6b3030bd59c30707aef34af0a07d953705376215e1659d3",
+    "reference_results/gnode_rt_robustness/summary.json": "a6d98cf8254e5b6841047e2a7c42033a05e2faf0b07212ae1b68eb6269f80e61",
+    "reference_results/gnode_mechanism_models/summary.json": "04ee330ee8f35d4b6e43bd5a02aebc7882e341d520b7f8fbd948e0ea733ad662",
+    "reference_results/gnode_mechanism_models_q9999/summary.json": "94e6487f24dfe49351d43e77c9d0fabeda5efd6df1fc65a1e2ef7c2f0aa2cb15"
+  }
+}

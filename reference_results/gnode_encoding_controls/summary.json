@@ -1,0 +1,174 @@
+{
+  "analysis_status": "secondary prediction-control analysis",
+  "n_permutations": 999,
+  "n_bootstraps": 5000,
+  "decomposition_max_abs_error": 1.887379141862766e-15,
+  "permutation_unit": "cue labels shuffled within session and condition; identical trial permutations across simultaneous units",
+  "aggregation": "median within triplet, median within component, mean within animal; separately aggregated decomposition terms are not additive",
+  "results": {
+    "joe": {
+      "baseline": {
+        "delta": {
+          "mean": 0.005947856708592262,
+          "bootstrap_95ci": [
+            0.001942783636634,
+            0.010574760809555085
+          ]
+        },
+        "dispersion": {
+          "mean": 0.00833948323557851,
+          "bootstrap_95ci": [
+            0.004440566952533341,
+            0.012931560342297307
+          ]
+        },
+        "cross_term": {
+          "mean": -0.0025372811797969214,
+          "bootstrap_95ci": [
+            -0.005186994915209318,
+            -1.8319446541633448e-05
+          ]
+        },
+        "set_vs_intercept": {
+          "mean": -0.013348958307099468,
+          "bootstrap_95ci": [
+            -0.018160308893883457,
+            -0.008692210952092277
+          ]
+        },
+        "set_r2": {
+          "mean": -0.13760791219275006,
+          "bootstrap_95ci": [
+            -0.2012602287591864,
+            -0.08231871990765811
+          ]
+        },
+        "cue_label_permutation_p": 0.95,
+        "n_components": 30,
+        "shuffled_gain_mean": -0.01047980182789694
+      },
+      "prep_late": {
+        "delta": {
+          "mean": 0.05933201478805052,
+          "bootstrap_95ci": [
+            0.039447855892100425,
+            0.08108534581578321
+          ]
+        },
+        "dispersion": {
+          "mean": 0.05729865995893897,
+          "bootstrap_95ci": [
+            0.0387449053610397,
+            0.07789808141730026
+          ]
+        },
+        "cross_term": {
+          "mean": 0.0013460823200610258,
+          "bootstrap_95ci": [
+            -0.005410681228788797,
+            0.007828570619465737
+          ]
+        },
+        "set_vs_intercept": {
+          "mean": 0.000385557778967015,
+          "bootstrap_95ci": [
+            -0.024403593177932774,
+            0.02524952870973009
+          ]
+        },
+        "set_r2": {
+          "mean": -0.4493149965499708,
+          "bootstrap_95ci": [
+            -0.7459221193922865,
+            -0.21798525256803264
+          ]
+        },
+        "cue_label_permutation_p": 0.001,
+        "n_components": 30,
+        "shuffled_gain_mean": -0.10345761840083285
+      }
+    },
+    "lili": {
+      "baseline": {
+        "delta": {
+          "mean": 0.010623221841241573,
+          "bootstrap_95ci": [
+            0.006517966693652085,
+            0.01506759451695209
+          ]
+        },
+        "dispersion": {
+          "mean": 0.009465483970072599,
+          "bootstrap_95ci": [
+            0.006933399557170026,
+            0.012261815484111134
+          ]
+        },
+        "cross_term": {
+          "mean": 0.002226969492921022,
+          "bootstrap_95ci": [
+            -0.001025227688517583,
+            0.005536361793985387
+          ]
+        },
+        "set_vs_intercept": {
+          "mean": -0.01653930992099358,
+          "bootstrap_95ci": [
+            -0.021705444650435054,
+            -0.011594567152619686
+          ]
+        },
+        "set_r2": {
+          "mean": -0.29679051810181134,
+          "bootstrap_95ci": [
+            -0.45614029680914464,
+            -0.16945011593334047
+          ]
+        },
+        "cue_label_permutation_p": 0.957,
+        "n_components": 48,
+        "shuffled_gain_mean": -0.013235486729874596
+      },
+      "prep_late": {
+        "delta": {
+          "mean": 0.05592468880080934,
+          "bootstrap_95ci": [
+            0.04062564301744743,
+            0.07255440544059995
+          ]
+        },
+        "dispersion": {
+          "mean": 0.059634717785080914,
+          "bootstrap_95ci": [
+            0.04359877514942456,
+            0.07702447989555024
+          ]
+        },
+        "cross_term": {
+          "mean": -0.002107585167248982,
+          "bootstrap_95ci": [
+            -0.009243552133957677,
+            0.004611700410698101
+          ]
+        },
+        "set_vs_intercept": {
+          "mean": 0.04234943607156977,
+          "bootstrap_95ci": [
+            -0.003754002048151709,
+            0.08200543405040736
+          ]
+        },
+        "set_r2": {
+          "mean": -0.13411493356429346,
+          "bootstrap_95ci": [
+            -0.232414132644195,
+            -0.04972526073577668
+          ]
+        },
+        "cue_label_permutation_p": 0.001,
+        "n_components": 48,
+        "shuffled_gain_mean": -0.13593796439734523
+      }
+    }
+  }
+}

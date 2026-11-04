@@ -1,0 +1,397 @@
+{
+  "classifier": {
+    "alternative": "diagonal Gaussian naive Bayes",
+    "variance_floor_after_training_standardization": 0.001,
+    "fold_assignment": "identical deterministic five-fold labels as main analysis"
+  },
+  "sesoi_grid": [
+    0.005,
+    0.01,
+    0.02,
+    0.03,
+    0.04,
+    0.05
+  ],
+  "minimum_unit_thresholds": [
+    2,
+    3
+  ],
+  "results": {
+    "nearest_centroid": {
+      "joe": {
+        "n_components": 30,
+        "pre_equivalence": {
+          "mean_advantage": -0.0002912679903228265,
+          "bootstrap_95ci": [
+            -0.004163547905468435,
+            0.0035122029067389832
+          ],
+          "sesoi": 0.05,
+          "upper_below_sesoi": true,
+          "two_sided_95ci_within_bounds": true,
+          "estimand": "component-mean decoding advantage averaged over the pre-RS interval",
+          "test": "one-sided upper-bound assessment; not a test of absence at every time"
+        },
+        "sesoi_grid": {
+          "0.005": true,
+          "0.010": true,
+          "0.020": true,
+          "0.030": true,
+          "0.040": true,
+          "0.050": true
+        },
+        "two_sided_95ci_grid": {
+          "0.005": true,
+          "0.010": true,
+          "0.020": true,
+          "0.030": true,
+          "0.040": true,
+          "0.050": true
+        },
+        "post": {
+          "n_components": 30,
+          "forming_t": 1.6991270265334972,
+          "clusters": [
+            {
+              "start_index": 0,
+              "stop_index": 42,
+              "mass": 411.12672752966836,
+              "start_ms": 80.0,
+              "stop_ms": 500.0,
+              "p_corrected": 9.999000099990002e-05
+            }
+          ]
+        },
+        "first_significant_post_center_ms": 80.0
+      },
+      "lili": {
+        "n_components": 48,
+        "pre_equivalence": {
+          "mean_advantage": 0.001511035073906859,
+          "bootstrap_95ci": [
+            -0.0020570048271077506,
+            0.004871538491294871
+          ],
+          "sesoi": 0.05,
+          "upper_below_sesoi": true,
+          "two_sided_95ci_within_bounds": true,
+          "estimand": "component-mean decoding advantage averaged over the pre-RS interval",
+          "test": "one-sided upper-bound assessment; not a test of absence at every time"
+        },
+        "sesoi_grid": {
+          "0.005": true,
+          "0.010": true,
+          "0.020": true,
+          "0.030": true,
+          "0.040": true,
+          "0.050": true
+        },
+        "two_sided_95ci_grid": {
+          "0.005": true,
+          "0.010": true,
+          "0.020": true,
+          "0.030": true,
+          "0.040": true,
+          "0.050": true
+        },
+        "post": {
+          "n_components": 48,
+          "forming_t": 1.6779267216418605,
+          "clusters": [
+            {
+              "start_index": 1,
+              "stop_index": 42,
+              "mass": 393.22234951671123,
+              "start_ms": 90.0,
+              "stop_ms": 500.0,
+              "p_corrected": 9.999000099990002e-05
+            }
+          ]
+        },
+        "first_significant_post_center_ms": 90.0
+      }
+    },
+    "gaussian_naive_bayes": {
+      "joe": {
+        "n_components": 30,
+        "pre_equivalence": {
+          "mean_advantage": -5.763093755762275e-05,
+          "bootstrap_95ci": [
+            -0.003358108827922736,
+            0.003283199033668126
+          ],
+          "sesoi": 0.05,
+          "upper_below_sesoi": true,
+          "two_sided_95ci_within_bounds": true,
+          "estimand": "component-mean decoding advantage averaged over the pre-RS interval",
+          "test": "one-sided upper-bound assessment; not a test of absence at every time"
+        },
+        "sesoi_grid": {
+          "0.005": true,
+          "0.010": true,
+          "0.020": true,
+          "0.030": true,
+          "0.040": true,
+          "0.050": true
+        },
+        "two_sided_95ci_grid": {
+          "0.005": true,
+          "0.010": true,
+          "0.020": true,
+          "0.030": true,
+          "0.040": true,
+          "0.050": true
+        },
+        "post": {
+          "n_components": 30,
+          "forming_t": 1.6991270265334972,
+          "clusters": [
+            {
+              "start_index": 0,
+              "stop_index": 42,
+              "mass": 376.6663356773442,
+              "start_ms": 80.0,
+              "stop_ms": 500.0,
+              "p_corrected": 9.999000099990002e-05
+            }
+          ]
+        },
+        "first_significant_post_center_ms": 80.0
+      },
+      "lili": {
+        "n_components": 48,
+        "pre_equivalence": {
+          "mean_advantage": -0.0012106267012898335,
+          "bootstrap_95ci": [
+            -0.004467521150504104,
+            0.0020229276460502696
+          ],
+          "sesoi": 0.05,
+          "upper_below_sesoi": true,
+          "two_sided_95ci_within_bounds": true,
+          "estimand": "component-mean decoding advantage averaged over the pre-RS interval",
+          "test": "one-sided upper-bound assessment; not a test of absence at every time"
+        },
+        "sesoi_grid": {
+          "0.005": true,
+          "0.010": true,
+          "0.020": true,
+          "0.030": true,
+          "0.040": true,
+          "0.050": true
+        },
+        "two_sided_95ci_grid": {
+          "0.005": true,
+          "0.010": true,
+          "0.020": true,
+          "0.030": true,
+          "0.040": true,
+          "0.050": true
+        },
+        "post": {
+          "n_components": 48,
+          "forming_t": 1.6779267216418605,
+          "clusters": [
+            {
+              "start_index": 1,
+              "stop_index": 42,
+              "mass": 376.51469542557965,
+              "start_ms": 90.0,
+              "stop_ms": 500.0,
+              "p_corrected": 9.999000099990002e-05
+            }
+          ]
+        },
+        "first_significant_post_center_ms": 90.0
+      }
+    },
+    "nearest_centroid_min_2_units": {
+      "joe": {
+        "n_components": 26,
+        "pre_equivalence": {
+          "mean_advantage": -0.0006759659661692212,
+          "bootstrap_95ci": [
+            -0.004881330317397429,
+            0.003467636694946823
+          ],
+          "sesoi": 0.05,
+          "upper_below_sesoi": true,
+          "two_sided_95ci_within_bounds": true,
+          "estimand": "component-mean decoding advantage averaged over the pre-RS interval",
+          "test": "one-sided upper-bound assessment; not a test of absence at every time"
+        },
+        "sesoi_grid": {
+          "0.005": true,
+          "0.010": true,
+          "0.020": true,
+          "0.030": true,
+          "0.040": true,
+          "0.050": true
+        },
+        "two_sided_95ci_grid": {
+          "0.005": true,
+          "0.010": true,
+          "0.020": true,
+          "0.030": true,
+          "0.040": true,
+          "0.050": true
+        },
+        "post": {
+          "n_components": 26,
+          "forming_t": 1.7081407612518986,
+          "clusters": [
+            {
+              "start_index": 0,
+              "stop_index": 42,
+              "mass": 397.2843702241954,
+              "start_ms": 80.0,
+              "stop_ms": 500.0,
+              "p_corrected": 9.999000099990002e-05
+            }
+          ]
+        },
+        "first_significant_post_center_ms": 80.0
+      },
+      "lili": {
+        "n_components": 35,
+        "pre_equivalence": {
+          "mean_advantage": 0.001796871180720645,
+          "bootstrap_95ci": [
+            -0.0022655061379439822,
+            0.005678485062170046
+          ],
+          "sesoi": 0.05,
+          "upper_below_sesoi": true,
+          "two_sided_95ci_within_bounds": true,
+          "estimand": "component-mean decoding advantage averaged over the pre-RS interval",
+          "test": "one-sided upper-bound assessment; not a test of absence at every time"
+        },
+        "sesoi_grid": {
+          "0.005": false,
+          "0.010": true,
+          "0.020": true,
+          "0.030": true,
+          "0.040": true,
+          "0.050": true
+        },
+        "two_sided_95ci_grid": {
+          "0.005": false,
+          "0.010": true,
+          "0.020": true,
+          "0.030": true,
+          "0.040": true,
+          "0.050": true
+        },
+        "post": {
+          "n_components": 35,
+          "forming_t": 1.6909242551868549,
+          "clusters": [
+            {
+              "start_index": 1,
+              "stop_index": 42,
+              "mass": 390.37976696373335,
+              "start_ms": 90.0,
+              "stop_ms": 500.0,
+              "p_corrected": 9.999000099990002e-05
+            }
+          ]
+        },
+        "first_significant_post_center_ms": 90.0
+      }
+    },
+    "nearest_centroid_min_3_units": {
+      "joe": {
+        "n_components": 22,
+        "pre_equivalence": {
+          "mean_advantage": -0.0006056586549283072,
+          "bootstrap_95ci": [
+            -0.005185300605593187,
+            0.003688345836903648
+          ],
+          "sesoi": 0.05,
+          "upper_below_sesoi": true,
+          "two_sided_95ci_within_bounds": true,
+          "estimand": "component-mean decoding advantage averaged over the pre-RS interval",
+          "test": "one-sided upper-bound assessment; not a test of absence at every time"
+        },
+        "sesoi_grid": {
+          "0.005": true,
+          "0.010": true,
+          "0.020": true,
+          "0.030": true,
+          "0.040": true,
+          "0.050": true
+        },
+        "two_sided_95ci_grid": {
+          "0.005": false,
+          "0.010": true,
+          "0.020": true,
+          "0.030": true,
+          "0.040": true,
+          "0.050": true
+        },
+        "post": {
+          "n_components": 22,
+          "forming_t": 1.7207429028118775,
+          "clusters": [
+            {
+              "start_index": 0,
+              "stop_index": 42,
+              "mass": 415.34974741929886,
+              "start_ms": 80.0,
+              "stop_ms": 500.0,
+              "p_corrected": 9.999000099990002e-05
+            }
+          ]
+        },
+        "first_significant_post_center_ms": 80.0
+      },
+      "lili": {
+        "n_components": 17,
+        "pre_equivalence": {
+          "mean_advantage": 0.002172693932291957,
+          "bootstrap_95ci": [
+            -0.00267778883285178,
+            0.006801532746298421
+          ],
+          "sesoi": 0.05,
+          "upper_below_sesoi": true,
+          "two_sided_95ci_within_bounds": true,
+          "estimand": "component-mean decoding advantage averaged over the pre-RS interval",
+          "test": "one-sided upper-bound assessment; not a test of absence at every time"
+        },
+        "sesoi_grid": {
+          "0.005": false,
+          "0.010": true,
+          "0.020": true,
+          "0.030": true,
+          "0.040": true,
+          "0.050": true
+        },
+        "two_sided_95ci_grid": {
+          "0.005": false,
+          "0.010": true,
+          "0.020": true,
+          "0.030": true,
+          "0.040": true,
+          "0.050": true
+        },
+        "post": {
+          "n_components": 17,
+          "forming_t": 1.74588367627624,
+          "clusters": [
+            {
+              "start_index": 2,
+              "stop_index": 42,
+              "mass": 380.15726795144775,
+              "start_ms": 100.0,
+              "stop_ms": 500.0,
+              "p_corrected": 9.999000099990002e-05
+            }
+          ]
+        },
+        "first_significant_post_center_ms": 100.0
+      }
+    }
+  }
+}

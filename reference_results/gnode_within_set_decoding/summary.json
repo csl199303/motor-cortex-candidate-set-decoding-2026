@@ -1,0 +1,335 @@
+{
+  "protocol": "within_set_decoding_protocol.md",
+  "n_folds": 5,
+  "n_sign_flips": 10000,
+  "n_bootstraps": 5000,
+  "sesoi": 0.05,
+  "session_counts": {
+    "joe_condition_2": 32,
+    "joe_condition_3": 32,
+    "lili_condition_2": 48,
+    "lili_condition_3": 48
+  },
+  "component_counts": {
+    "lili": 48,
+    "joe": 30
+  },
+  "success_by_monkey": {
+    "joe": true,
+    "lili": true
+  },
+  "emergence_claim_pass": true,
+  "inference": {
+    "joe": {
+      "2": {
+        "pre": {
+          "n_components": 30,
+          "forming_t": 1.6991270265334972,
+          "clusters": []
+        },
+        "post": {
+          "n_components": 30,
+          "forming_t": 1.6991270265334972,
+          "clusters": [
+            {
+              "start_index": 0,
+              "stop_index": 42,
+              "mass": 392.97464670748127,
+              "start_ms": 80.0,
+              "stop_ms": 500.0,
+              "p_corrected": 9.999000099990002e-05
+            }
+          ]
+        },
+        "pre_equivalence": {
+          "mean_advantage": -0.005908682876226468,
+          "bootstrap_95ci": [
+            -0.011937136692817964,
+            0.0002806207377287753
+          ],
+          "sesoi": 0.05,
+          "upper_below_sesoi": true,
+          "two_sided_95ci_within_bounds": true,
+          "estimand": "component-mean decoding advantage averaged over the pre-RS interval",
+          "test": "one-sided upper-bound assessment; not a test of absence at every time"
+        }
+      },
+      "3": {
+        "pre": {
+          "n_components": 30,
+          "forming_t": 1.6991270265334972,
+          "clusters": [
+            {
+              "start_index": 2,
+              "stop_index": 2,
+              "mass": 2.7265437081605297,
+              "start_ms": -330.0,
+              "stop_ms": -330.0,
+              "p_corrected": 0.2802719728027197
+            },
+            {
+              "start_index": 8,
+              "stop_index": 9,
+              "mass": 3.8721193997784056,
+              "start_ms": -270.0,
+              "stop_ms": -260.0,
+              "p_corrected": 0.202979702029797
+            },
+            {
+              "start_index": 16,
+              "stop_index": 16,
+              "mass": 2.829279584711717,
+              "start_ms": -190.0,
+              "stop_ms": -190.0,
+              "p_corrected": 0.26807319268073193
+            },
+            {
+              "start_index": 30,
+              "stop_index": 30,
+              "mass": 1.8712085540025543,
+              "start_ms": -50.0,
+              "stop_ms": -50.0,
+              "p_corrected": 0.5841415858414158
+            }
+          ]
+        },
+        "post": {
+          "n_components": 30,
+          "forming_t": 1.6991270265334972,
+          "clusters": [
+            {
+              "start_index": 0,
+              "stop_index": 42,
+              "mass": 346.86614607530333,
+              "start_ms": 80.0,
+              "stop_ms": 500.0,
+              "p_corrected": 9.999000099990002e-05
+            }
+          ]
+        },
+        "pre_equivalence": {
+          "mean_advantage": 0.005326146895580817,
+          "bootstrap_95ci": [
+            -0.0016791459500150232,
+            0.011448824004797267
+          ],
+          "sesoi": 0.05,
+          "upper_below_sesoi": true,
+          "two_sided_95ci_within_bounds": true,
+          "estimand": "component-mean decoding advantage averaged over the pre-RS interval",
+          "test": "one-sided upper-bound assessment; not a test of absence at every time"
+        }
+      },
+      "pooled": {
+        "pre": {
+          "n_components": 30,
+          "forming_t": 1.6991270265334972,
+          "clusters": [
+            {
+              "start_index": 2,
+              "stop_index": 2,
+              "mass": 2.253470267427254,
+              "start_ms": -330.0,
+              "stop_ms": -330.0,
+              "p_corrected": 0.42245775422457754
+            }
+          ]
+        },
+        "post": {
+          "n_components": 30,
+          "forming_t": 1.6991270265334972,
+          "clusters": [
+            {
+              "start_index": 0,
+              "stop_index": 42,
+              "mass": 411.12672752966847,
+              "start_ms": 80.0,
+              "stop_ms": 500.0,
+              "p_corrected": 9.999000099990002e-05
+            }
+          ]
+        },
+        "pre_equivalence": {
+          "mean_advantage": -0.000291267990322826,
+          "bootstrap_95ci": [
+            -0.0041391857363947075,
+            0.003500876514967936
+          ],
+          "sesoi": 0.05,
+          "upper_below_sesoi": true,
+          "two_sided_95ci_within_bounds": true,
+          "estimand": "component-mean decoding advantage averaged over the pre-RS interval",
+          "test": "one-sided upper-bound assessment; not a test of absence at every time"
+        }
+      }
+    },
+    "lili": {
+      "2": {
+        "pre": {
+          "n_components": 48,
+          "forming_t": 1.6779267216418605,
+          "clusters": [
+            {
+              "start_index": 4,
+              "stop_index": 4,
+              "mass": 2.1655790171392493,
+              "start_ms": -310.0,
+              "stop_ms": -310.0,
+              "p_corrected": 0.43285671432856715
+            }
+          ]
+        },
+        "post": {
+          "n_components": 48,
+          "forming_t": 1.6779267216418605,
+          "clusters": [
+            {
+              "start_index": 1,
+              "stop_index": 42,
+              "mass": 367.7941472451977,
+              "start_ms": 90.0,
+              "stop_ms": 500.0,
+              "p_corrected": 9.999000099990002e-05
+            }
+          ]
+        },
+        "pre_equivalence": {
+          "mean_advantage": 0.0014433717625815055,
+          "bootstrap_95ci": [
+            -0.0037829094873217763,
+            0.00678536472716317
+          ],
+          "sesoi": 0.05,
+          "upper_below_sesoi": true,
+          "two_sided_95ci_within_bounds": true,
+          "estimand": "component-mean decoding advantage averaged over the pre-RS interval",
+          "test": "one-sided upper-bound assessment; not a test of absence at every time"
+        }
+      },
+      "3": {
+        "pre": {
+          "n_components": 48,
+          "forming_t": 1.6779267216418605,
+          "clusters": [
+            {
+              "start_index": 19,
+              "stop_index": 19,
+              "mass": 1.7548216358567696,
+              "start_ms": -160.0,
+              "stop_ms": -160.0,
+              "p_corrected": 0.6699330066993301
+            },
+            {
+              "start_index": 22,
+              "stop_index": 22,
+              "mass": 2.1303992935976352,
+              "start_ms": -130.0,
+              "stop_ms": -130.0,
+              "p_corrected": 0.44125587441255876
+            },
+            {
+              "start_index": 30,
+              "stop_index": 30,
+              "mass": 1.7943557928668497,
+              "start_ms": -50.0,
+              "stop_ms": -50.0,
+              "p_corrected": 0.6407359264073592
+            },
+            {
+              "start_index": 32,
+              "stop_index": 32,
+              "mass": 1.873327437813725,
+              "start_ms": -30.0,
+              "stop_ms": -30.0,
+              "p_corrected": 0.5905409459054095
+            }
+          ]
+        },
+        "post": {
+          "n_components": 48,
+          "forming_t": 1.6779267216418605,
+          "clusters": [
+            {
+              "start_index": 2,
+              "stop_index": 42,
+              "mass": 320.2151009165676,
+              "start_ms": 100.0,
+              "stop_ms": 500.0,
+              "p_corrected": 9.999000099990002e-05
+            }
+          ]
+        },
+        "pre_equivalence": {
+          "mean_advantage": 0.0015786983852322186,
+          "bootstrap_95ci": [
+            -0.0035295435675380105,
+            0.006751261382560942
+          ],
+          "sesoi": 0.05,
+          "upper_below_sesoi": true,
+          "two_sided_95ci_within_bounds": true,
+          "estimand": "component-mean decoding advantage averaged over the pre-RS interval",
+          "test": "one-sided upper-bound assessment; not a test of absence at every time"
+        }
+      },
+      "pooled": {
+        "pre": {
+          "n_components": 48,
+          "forming_t": 1.6779267216418605,
+          "clusters": [
+            {
+              "start_index": 19,
+              "stop_index": 19,
+              "mass": 1.8454992577546008,
+              "start_ms": -160.0,
+              "stop_ms": -160.0,
+              "p_corrected": 0.6244375562443756
+            },
+            {
+              "start_index": 22,
+              "stop_index": 22,
+              "mass": 1.7131618923385386,
+              "start_ms": -130.0,
+              "stop_ms": -130.0,
+              "p_corrected": 0.7134286571342866
+            },
+            {
+              "start_index": 30,
+              "stop_index": 30,
+              "mass": 1.7449922323422453,
+              "start_ms": -50.0,
+              "stop_ms": -50.0,
+              "p_corrected": 0.6926307369263074
+            }
+          ]
+        },
+        "post": {
+          "n_components": 48,
+          "forming_t": 1.6779267216418605,
+          "clusters": [
+            {
+              "start_index": 1,
+              "stop_index": 42,
+              "mass": 393.22234951671146,
+              "start_ms": 90.0,
+              "stop_ms": 500.0,
+              "p_corrected": 9.999000099990002e-05
+            }
+          ]
+        },
+        "pre_equivalence": {
+          "mean_advantage": 0.0015110350739068617,
+          "bootstrap_95ci": [
+            -0.0018546051405572822,
+            0.004954289762575361
+          ],
+          "sesoi": 0.05,
+          "upper_below_sesoi": true,
+          "two_sided_95ci_within_bounds": true,
+          "estimand": "component-mean decoding advantage averaged over the pre-RS interval",
+          "test": "one-sided upper-bound assessment; not a test of absence at every time"
+        }
+      }
+    }
+  }
+}

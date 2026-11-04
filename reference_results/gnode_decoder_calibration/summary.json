@@ -1,0 +1,58 @@
+{
+  "analysis_status": "secondary decoder calibration",
+  "n_permutations": 499,
+  "n_simulations": 200,
+  "decoder_implementation_max_error": 0.0,
+  "simulation_scope": "independent Poisson rate codes, empirical session/set/unit/trial layout and mean rates, overlapping 50-ms counts from 10-ms bins; does not calibrate every possible neural code",
+  "injection_test": "mean pre-RS accuracy advantage; critical value calibrated on half of zero-signal simulations",
+  "results": {
+    "joe": {
+      "n_components": 30,
+      "pre_mean": -0.00029126799032282554,
+      "pre_empirical_null_95interval": [
+        -0.002202717299073445,
+        0.006636717638004791
+      ],
+      "pre_label_permutation_p": 0.834,
+      "post_test_interval_ms": [
+        0,
+        500
+      ],
+      "post_clusters": [
+        {
+          "start_index": 8,
+          "stop_index": 50,
+          "mass": 411.12672752966847,
+          "start_ms": 80.0,
+          "stop_ms": 500.0,
+          "p_label_permutation": 0.002
+        }
+      ],
+      "simulation_critical_mean_advantage": 0.0031153996473768358
+    },
+    "lili": {
+      "n_components": 48,
+      "pre_mean": 0.0015110350739068613,
+      "pre_empirical_null_95interval": [
+        -0.003019844191246527,
+        0.005731837795922998
+      ],
+      "pre_label_permutation_p": 0.52,
+      "post_test_interval_ms": [
+        0,
+        500
+      ],
+      "post_clusters": [
+        {
+          "start_index": 9,
+          "stop_index": 50,
+          "mass": 393.22234951671146,
+          "start_ms": 90.0,
+          "stop_ms": 500.0,
+          "p_label_permutation": 0.002
+        }
+      ],
+      "simulation_critical_mean_advantage": 0.0033269064937819113
+    }
+  }
+}

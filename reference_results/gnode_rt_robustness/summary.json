@@ -1,0 +1,344 @@
+{
+  "post_hoc": true,
+  "fixed_window_centers_ms": [
+    100,
+    200
+  ],
+  "window_support_ms": [
+    75,
+    225
+  ],
+  "scenarios": {
+    "reproduction_min5": {
+      "settings": {
+        "min_trials": 5,
+        "weighting": "equal",
+        "control": false,
+        "min_rt": 50
+      },
+      "animals": {
+        "joe": {
+          "n_components": 30,
+          "mean_r": -0.04150552825851994,
+          "median_r": -0.07061681453751194,
+          "negative_components": 20,
+          "monte_carlo_p_negative": 0.0226977302269773,
+          "bootstrap_95ci": [
+            -0.07889194004259319,
+            -0.0024967007041570913
+          ]
+        },
+        "lili": {
+          "n_components": 48,
+          "mean_r": -0.06342433136737612,
+          "median_r": -0.08448037755354164,
+          "negative_components": 38,
+          "monte_carlo_p_negative": 0.00019998000199980003,
+          "bootstrap_95ci": [
+            -0.09375879168584862,
+            -0.03332236559730213
+          ]
+        }
+      }
+    },
+    "min10": {
+      "settings": {
+        "min_trials": 10,
+        "weighting": "equal",
+        "control": false,
+        "min_rt": 50
+      },
+      "animals": {
+        "joe": {
+          "n_components": 29,
+          "mean_r": -0.04566981138853991,
+          "median_r": -0.07663149207781556,
+          "negative_components": 20,
+          "monte_carlo_p_negative": 0.015398460153984602,
+          "bootstrap_95ci": [
+            -0.08287516655110087,
+            -0.005615876174067204
+          ]
+        },
+        "lili": {
+          "n_components": 48,
+          "mean_r": -0.07155451920188767,
+          "median_r": -0.09596856016719782,
+          "negative_components": 37,
+          "monte_carlo_p_negative": 0.0007999200079992001,
+          "bootstrap_95ci": [
+            -0.11136735121970953,
+            -0.02971016236172052
+          ]
+        }
+      }
+    },
+    "min15": {
+      "settings": {
+        "min_trials": 15,
+        "weighting": "equal",
+        "control": false,
+        "min_rt": 50
+      },
+      "animals": {
+        "joe": {
+          "n_components": 28,
+          "mean_r": -0.06303277096208322,
+          "median_r": -0.08372597638759773,
+          "negative_components": 21,
+          "monte_carlo_p_negative": 0.0031996800319968005,
+          "bootstrap_95ci": [
+            -0.1031098714224128,
+            -0.02102795083478767
+          ]
+        },
+        "lili": {
+          "n_components": 15,
+          "mean_r": -0.06623258695093985,
+          "median_r": -0.09952208293565479,
+          "negative_components": 10,
+          "monte_carlo_p_negative": 0.011898810118988102,
+          "bootstrap_95ci": [
+            -0.11263439478374054,
+            -0.016484030303368338
+          ]
+        }
+      }
+    },
+    "precision_weighted": {
+      "settings": {
+        "min_trials": 5,
+        "weighting": "n_minus_3",
+        "control": false,
+        "min_rt": 50
+      },
+      "animals": {
+        "joe": {
+          "n_components": 30,
+          "mean_r": -0.04252077247045456,
+          "median_r": -0.06904120505904915,
+          "negative_components": 20,
+          "monte_carlo_p_negative": 0.024197580241975804,
+          "bootstrap_95ci": [
+            -0.0800104941497982,
+            -0.003461624870450061
+          ]
+        },
+        "lili": {
+          "n_components": 48,
+          "mean_r": -0.06271507156757969,
+          "median_r": -0.07092801892319348,
+          "negative_components": 36,
+          "monte_carlo_p_negative": 9.999000099990002e-05,
+          "bootstrap_95ci": [
+            -0.0921898910638348,
+            -0.03182491861345043
+          ]
+        }
+      }
+    },
+    "trial_order_adjusted": {
+      "settings": {
+        "min_trials": 5,
+        "weighting": "equal",
+        "control": true,
+        "min_rt": 50
+      },
+      "animals": {
+        "joe": {
+          "n_components": 30,
+          "mean_r": -0.04272679376483389,
+          "median_r": -0.07622609852342385,
+          "negative_components": 21,
+          "monte_carlo_p_negative": 0.012998700129987,
+          "bootstrap_95ci": [
+            -0.07616769038204775,
+            -0.007894812159059237
+          ]
+        },
+        "lili": {
+          "n_components": 48,
+          "mean_r": -0.0641857447995592,
+          "median_r": -0.07870628145762226,
+          "negative_components": 35,
+          "monte_carlo_p_negative": 0.00019998000199980003,
+          "bootstrap_95ci": [
+            -0.09478597088889525,
+            -0.0329771506166928
+          ]
+        }
+      }
+    },
+    "premovement_225ms": {
+      "settings": {
+        "min_trials": 5,
+        "weighting": "equal",
+        "control": false,
+        "min_rt": 225
+      },
+      "animals": {
+        "joe": {
+          "n_components": 27,
+          "mean_r": -0.08027936927246666,
+          "median_r": -0.007647773830604054,
+          "negative_components": 14,
+          "monte_carlo_p_negative": 0.04509549045095491,
+          "bootstrap_95ci": [
+            -0.17321517008448692,
+            0.008680241907015145
+          ]
+        },
+        "lili": {
+          "n_components": 45,
+          "mean_r": -0.07434662229987013,
+          "median_r": -0.07361947871547421,
+          "negative_components": 30,
+          "monte_carlo_p_negative": 0.0100989901009899,
+          "bootstrap_95ci": [
+            -0.13289765978784257,
+            -0.014286107393231212
+          ]
+        }
+      }
+    },
+    "premovement_250ms": {
+      "settings": {
+        "min_trials": 5,
+        "weighting": "equal",
+        "control": false,
+        "min_rt": 250
+      },
+      "animals": {
+        "joe": {
+          "n_components": 13,
+          "mean_r": -0.11992103880397806,
+          "median_r": -0.07364237730985052,
+          "negative_components": 7,
+          "monte_carlo_p_negative": 0.10208979102089791,
+          "bootstrap_95ci": [
+            -0.2968574378001773,
+            0.041695189763996214
+          ]
+        },
+        "lili": {
+          "n_components": 26,
+          "mean_r": -0.03759746767125707,
+          "median_r": -0.04175101655838969,
+          "negative_components": 14,
+          "monte_carlo_p_negative": 0.19438056194380562,
+          "bootstrap_95ci": [
+            -0.11758846721274509,
+            0.0423004806291424
+          ]
+        }
+      }
+    },
+    "premovement_275ms": {
+      "settings": {
+        "min_trials": 5,
+        "weighting": "equal",
+        "control": false,
+        "min_rt": 275
+      },
+      "animals": {
+        "joe": {
+          "n_components": 0,
+          "status": "insufficient_data",
+          "mean_r": null,
+          "median_r": null,
+          "negative_components": 0,
+          "monte_carlo_p_negative": null,
+          "bootstrap_95ci": [
+            null,
+            null
+          ]
+        },
+        "lili": {
+          "n_components": 9,
+          "mean_r": -0.2455232501754417,
+          "median_r": -0.2756494588021289,
+          "negative_components": 7,
+          "monte_carlo_p_negative": 0.014298570142985701,
+          "bootstrap_95ci": [
+            -0.4039384839538267,
+            -0.08156945508442698
+          ]
+        }
+      }
+    },
+    "early_80_120_buffer25": {
+      "settings": {
+        "min_trials": 5,
+        "weighting": "equal",
+        "control": false,
+        "min_rt": 170,
+        "window": [
+          80,
+          120
+        ],
+        "require_all_directions": true
+      },
+      "animals": {
+        "joe": {
+          "n_components": 28,
+          "mean_r": -0.053385457304226135,
+          "median_r": -0.07627267469168418,
+          "negative_components": 21,
+          "monte_carlo_p_negative": 0.0044995500449955,
+          "bootstrap_95ci": [
+            -0.08809876797239942,
+            -0.016499593123354753
+          ]
+        },
+        "lili": {
+          "n_components": 45,
+          "mean_r": -0.05494386333161109,
+          "median_r": -0.048427307672088166,
+          "negative_components": 32,
+          "monte_carlo_p_negative": 0.0011998800119988001,
+          "bootstrap_95ci": [
+            -0.08771087647811789,
+            -0.021745653414807723
+          ]
+        }
+      }
+    },
+    "early_100_150_buffer25": {
+      "settings": {
+        "min_trials": 5,
+        "weighting": "equal",
+        "control": false,
+        "min_rt": 200,
+        "window": [
+          100,
+          150
+        ],
+        "require_all_directions": true
+      },
+      "animals": {
+        "joe": {
+          "n_components": 5,
+          "mean_r": -0.07550953845387628,
+          "median_r": -0.059892497544059134,
+          "negative_components": 4,
+          "monte_carlo_p_negative": 0.09379062093790622,
+          "bootstrap_95ci": [
+            -0.1498821379398796,
+            -0.002343145008561713
+          ]
+        },
+        "lili": {
+          "n_components": 35,
+          "mean_r": -0.0916316659118095,
+          "median_r": -0.09380496145823285,
+          "negative_components": 28,
+          "monte_carlo_p_negative": 9.999000099990002e-05,
+          "bootstrap_95ci": [
+            -0.12563767523636182,
+            -0.058564865201387796
+          ]
+        }
+      }
+    }
+  }
+}

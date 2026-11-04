@@ -1,0 +1,2 @@
+# Preserve archived result bytes for SHA-256 verification across platforms.
+reference_results/**/*.json -text

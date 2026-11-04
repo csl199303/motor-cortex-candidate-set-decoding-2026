@@ -1,0 +1,204 @@
+{
+  "protocol": "mechanism_model_protocol.md",
+  "fit_interval_ms": [
+    -50,
+    220
+  ],
+  "models": [
+    "latency",
+    "rate",
+    "threshold"
+  ],
+  "parameters_per_model": 6,
+  "threshold_fraction_upper_bound": 0.9999,
+  "n_bootstraps": 5000,
+  "n_sign_flips": 10000,
+  "full_fits": {
+    "joe": {
+      "latency": {
+        "parameters": [
+          -0.05509014482216079,
+          0.16691980761094774,
+          17.021763419841083,
+          75.40852709333146,
+          122.49286294813109,
+          0.9966538327250297
+        ],
+        "full_fit_cost": 52.53010843694087,
+        "mean_loco_score": 1.9190076607367128,
+        "median_loco_score": 1.6638351609728244,
+        "predicted_rt_ms": [
+          172.37449874550055,
+          219.45883460030018
+        ],
+        "observed_component_median_rt_ms": [
+          170.125,
+          219.6875
+        ]
+      },
+      "rate": {
+        "parameters": [
+          -0.05427256434107343,
+          0.16555435515126962,
+          99.27669189162975,
+          7.845818430270927,
+          13.13828796468921,
+          0.9998999999999999
+        ],
+        "full_fit_cost": 49.216495096367495,
+        "mean_loco_score": 1.8070577547717621,
+        "median_loco_score": 1.5879219143080905,
+        "predicted_rt_ms": [
+          171.5385655100663,
+          220.28348205695016
+        ],
+        "observed_component_median_rt_ms": [
+          170.125,
+          219.6875
+        ]
+      },
+      "threshold": {
+        "parameters": [
+          -0.055598830936430484,
+          0.16914174632560605,
+          99.74808415407557,
+          13.08385720295739,
+          0.9958723630918384,
+          0.9998999999999999
+        ],
+        "full_fit_cost": 49.31992757558912,
+        "mean_loco_score": 1.8104550859774164,
+        "median_loco_score": 1.5868156288014215,
+        "predicted_rt_ms": [
+          171.52500000066937,
+          220.25355392048837
+        ],
+        "observed_component_median_rt_ms": [
+          170.125,
+          219.6875
+        ]
+      },
+      "scales": {
+        "evidence": 0.050694046531151976,
+        "rt_ms": 9.822225
+      }
+    },
+    "lili": {
+      "latency": {
+        "parameters": [
+          -0.08762555751287893,
+          0.17841843152692108,
+          22.391445305986522,
+          103.84178808086978,
+          146.2852478351242,
+          0.9905794963372121
+        ],
+        "full_fit_cost": 81.87869412592148,
+        "mean_loco_score": 1.775644710235258,
+        "median_loco_score": 1.0816774911789164,
+        "predicted_rt_ms": [
+          208.08295764950748,
+          250.5264174037619
+        ],
+        "observed_component_median_rt_ms": [
+          207.375,
+          248.875
+        ]
+      },
+      "rate": {
+        "parameters": [
+          -0.08683590920814162,
+          0.17099872167257976,
+          121.73384263047264,
+          14.444529213256182,
+          21.679851334544367,
+          0.9974159058705134
+        ],
+        "full_fit_cost": 81.32246176148013,
+        "mean_loco_score": 1.7640614919882378,
+        "median_loco_score": 1.0630694106515055,
+        "predicted_rt_ms": [
+          207.7624661116668,
+          250.85454570441811
+        ],
+        "observed_component_median_rt_ms": [
+          207.375,
+          248.875
+        ]
+      },
+      "threshold": {
+        "parameters": [
+          -0.08637724604619705,
+          0.17148592061957918,
+          122.73994997858271,
+          17.896763763574185,
+          0.991417764238641,
+          0.9992230723509224
+        ],
+        "full_fit_cost": 81.2667113723308,
+        "mean_loco_score": 1.7627996252324927,
+        "median_loco_score": 1.0516280907842355,
+        "predicted_rt_ms": [
+          207.73958333553435,
+          250.86979166757737
+        ],
+        "observed_component_median_rt_ms": [
+          207.375,
+          248.875
+        ]
+      },
+      "scales": {
+        "evidence": 0.07247661784887313,
+        "rt_ms": 12.231449999999999
+      }
+    }
+  },
+  "comparisons": {
+    "joe": {
+      "ranking": {
+        "rate": 1.8070577547717623,
+        "threshold": 1.8104550859774162,
+        "latency": 1.9190076607367128
+      },
+      "winner": "rate",
+      "second_best": "threshold",
+      "winner_vs_second": {
+        "mean_score_improvement": 0.0033973312056538732,
+        "median_score_improvement": 0.0023153570530354273,
+        "bootstrap_95ci": [
+          -0.005555825495762443,
+          0.01224216557866397
+        ],
+        "paired_sign_flip_p_two_sided": 0.47795220477952205,
+        "components_favoring_winner": 17,
+        "n_components": 30
+      }
+    },
+    "lili": {
+      "ranking": {
+        "threshold": 1.762799625232493,
+        "rate": 1.7640614919882378,
+        "latency": 1.7756447102352582
+      },
+      "winner": "threshold",
+      "second_best": "rate",
+      "winner_vs_second": {
+        "mean_score_improvement": 0.001261866755744881,
+        "median_score_improvement": 0.0023634138025313,
+        "bootstrap_95ci": [
+          -0.001476108449882099,
+          0.003987932379185106
+        ],
+        "paired_sign_flip_p_two_sided": 0.36546345365463456,
+        "components_favoring_winner": 29,
+        "n_components": 48
+      }
+    }
+  },
+  "winner_by_monkey": {
+    "joe": "rate",
+    "lili": "threshold"
+  },
+  "unique_mechanism_winner": false,
+  "decision": "inconclusive_or_mixed"
+}
