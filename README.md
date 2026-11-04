@@ -87,7 +87,6 @@ schematic. Generated plots may differ in styling from the manuscript.
 
 ## Citation and license
 
-Please cite the G-Node dataset above. A citation for the reanalysis and a code
-license will be added once the authors have selected and confirmed them. Until
-then, no reuse license for this repository's code is stated here; the dataset's
-CC BY 4.0 license applies to the dataset, not automatically to this code.
+Please cite the G-Node dataset above. The analysis code is available under the
+MIT License; see `LICENSE`. The source dataset is separately licensed under
+CC BY 4.0. A citation for the reanalysis will be added when available.
