@@ -1,0 +1,9 @@
+{
+  "archives_checked": 316,
+  "max_rescoring_error_bits": 6.213412007127772e-08,
+  "minimum_rt170_buffer_ms": 25.0,
+  "matched_set_pairs": 398,
+  "unmatched_set_pairs": 0,
+  "geometry_holdout_rows": 83984,
+  "geometry_decomposition_error": 2.4513724383723456e-13
+}

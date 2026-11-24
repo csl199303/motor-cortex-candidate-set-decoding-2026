@@ -1,0 +1,26 @@
+{
+  "dataset_doi": "10.12751/g-node.rz77m8",
+  "input_sha256": {
+    "gnode_rs_sliding_metadata.csv": "417df2ee6b9abde56ad7ca178754363040799e652cac689478bfe8fe6ebe6bea",
+    "gnode_rs_sliding_rates.npz": "8bd6522ccb9e16bc326e2717d7698559df5cdcb1691a1b8be47d53cbccbf08f4",
+    "gnode_uncertainty_rates.csv": "d0c0e241098e9624ff1915986882faf750ddb0cee66d61457fd78fd09943853c",
+    "gnode_rs_sliding_rates.json": "98c9edcb3ffe76cbce54da8cb1149f26f51c7aeb344b28976d4024676eeb8052"
+  },
+  "source_sha256": "446c95cc06d62e430d91bf12ebc0feac2e1db34c46ae0731391303b844d376a8",
+  "n_model_archives": 316,
+  "n_matched_set_pairs": 398,
+  "bootstrap_draws": 5000,
+  "temperature_grid": [
+    0.0,
+    0.125,
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "numpy_version": "2.3.5",
+  "pandas_version": "2.3.3"
+}

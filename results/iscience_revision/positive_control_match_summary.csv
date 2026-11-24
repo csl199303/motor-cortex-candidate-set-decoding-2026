@@ -1,0 +1,5 @@
+monkey,condition,n_sets,n_matched_sets,n_full_unit_sets,median_matched_units,median_matched_trials
+joe,2,96,96,87,3.0,35.0
+joe,3,62,62,54,3.0,53.5
+lili,2,144,144,138,2.0,23.0
+lili,3,96,96,92,2.0,34.0

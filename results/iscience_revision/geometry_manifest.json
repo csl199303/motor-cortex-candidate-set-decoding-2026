@@ -1,0 +1,7 @@
+{
+  "max_decomposition_error": 2.4513724383723456e-13,
+  "n_holdout_rows": 83984,
+  "n_excluded_unit_windows_or_folds": 19,
+  "source_sha256": "9328f6450f8ad60298d3b7f880cef6b372dbec45478927c444fa7a6bdbf1090e",
+  "input_sha256": "d0c0e241098e9624ff1915986882faf750ddb0cee66d61457fd78fd09943853c"
+}
